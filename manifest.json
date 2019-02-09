@@ -1,0 +1,15 @@
+{
+    "name": "ChatworkMenu",
+    "version": "1.0",
+    "description": "チャットワークにcode,infoなどのタグを追加するドロップダウンメニューを作成",
+    "content_scripts": [{
+        "matches": ["https://kcw.kddi.ne.jp/*"],
+        "js": ["js/jquery-3.1.1.min.js", "js/main.js", "js/jquery.dropdown.js"],
+        "css": ["css/style.css"],
+        "run_at": "document_end"
+    }],
+    "permissions": [
+      "management"
+    ],
+    "manifest_version": 2
+}
