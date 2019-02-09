@@ -1,5 +1,4 @@
 # ChromeExtension-ChatworkTagMenu
-====
 
 ## Overview
 
@@ -15,3 +14,4 @@ Chatworkに[info]や[code]タグを挿入するショートカットメニュー
 
 ## Demo
 
+![demo](https://raw.github.com/wiki/Rasukarusan/chatwork-tag-menu/images/demo.gif)
